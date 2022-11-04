@@ -10,7 +10,8 @@ pipeline{
        stage('Git Code'){
             steps{
                 git branch: 'main',
-                url: 'https://github.com/yasmine226/Projetachat'
+                url: 'https://github.com/yasmine226/Projetachat' ,
+                credentialsId: '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'    
             }
          }        
         
