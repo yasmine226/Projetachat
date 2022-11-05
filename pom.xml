@@ -71,7 +71,15 @@
 			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
 	</dependencies>
-
+	
+	<distributionManagement>
+	<repository>
+	<id>deploymentRepo</id>
+	<name>nexus-repo-devops</name>
+	<url>http://172.10.0.140:8081/repository/nexus-repo-devops/</url>
+	</repository>
+	</distributionManagement>
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -95,16 +103,5 @@
 		</plugins>
 		<finalName>tpAchatProject</finalName>
 	</build>
-	
-	<distributionManagement>
-<snapshotRepository>
-<id>nexus-snapshots</id>
-<url>http://172.10.0.140:8081/repository/maven-snapshots/</url>
-</snapshotRepository>
-<repository>
-<id>nexus-releases</id>
-<url>http://172.10.0.140:8081/repository/maven-releases/</url>
-</repository>
-</distributionManagement>
 
 </project>
