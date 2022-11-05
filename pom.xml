@@ -98,11 +98,11 @@
 <distributionManagement>
 <snapshotRepository>
 <id>nexus-snapshots</id>
-<url>http://172.10.0.140:8081/nexus/content/repositories/snapshots/</url>
+<url>http://172.10.0.140:8081/repository/nexus-repo-devops/</url>
 </snapshotRepository>
 <repository>
 <id>nexus-releases</id>
-<url>http://172.10.0.140:8081/nexus/content/repositories/releases/</url>
+<url>http://172.10.0.140:8081/repository/nexus-repo-devops/</url>
 </repository>
 </distributionManagement>
 
