@@ -16,7 +16,7 @@ services:
      - /home/mysql/data:/var/lib/mysql
 
   spring_app:
-    image: 11711911/achat
+    image: yasmine12/tpachat
     container_name: achatspring
     restart: on-failure
     environment:
