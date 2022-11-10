@@ -51,5 +51,11 @@ public class Fournisseur implements Serializable {
 			this.detailFournisseur = detailFournisseur;
 		}
 
+	public Fournisseur(Long idFournisseur, String code, String libelle) {
+		super();
+		this.idFournisseur = idFournisseur;
+		this.code = code;
+		this.libelle = libelle;
+	}
 	
 }
