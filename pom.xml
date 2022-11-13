@@ -47,6 +47,13 @@
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 		<dependency>
+        <groupId>org.junit.vintage</groupId>
+        <artifactId>junit-vintage-engine</artifactId>
+        <version>5.4.0</version>
+        <scope>test</scope>
+    </dependency>
+		
+		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<scope>test</scope>
@@ -111,6 +118,6 @@
 	   </repository>
 	</distributionManagement>
 
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 </project>
