@@ -109,6 +109,4 @@
 	   </repository>
 	</distributionManagement>
 
-	<packaging>jar</packaging>
-
 </project>
